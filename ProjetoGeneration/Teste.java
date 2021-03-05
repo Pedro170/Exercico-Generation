@@ -28,8 +28,8 @@ public class Teste {
 			System.out.print("Digite seu e-mail: ");
 			nome = leia.next();
 			leia.nextLine();
-			System.out.print("Digite sua senha: ");
-			senha = leia.nextInt();
+			//System.out.print("Digite sua senha: ");
+			//senha = leia.nextInt();
 			break;
 		case 2: 
 			System.out.println("CRIE UMA CONTA...");
@@ -41,8 +41,8 @@ public class Teste {
 			leia.nextLine();
 			System.out.print("Digite seu telefone: ");
 			String cel = leia.next();
-			System.out.print("Agora digita uma senha: ");
-			senha = leia.nextInt();
+			//System.out.print("Agora digita uma senha: ");
+			//senha = leia.nextInt();
 		}
 		
 		doador.doc();

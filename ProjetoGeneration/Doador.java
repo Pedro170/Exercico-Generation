@@ -28,11 +28,11 @@ public class Doador extends DadosPessoais  {
 			System.out.println("*********************************************");
 			System.out.println("* DOE AQUI O APARELHO QUE VOCÊ NÃO USA MAIS *");
 			System.out.println("*********************************************");
-			System.out.println("NOME: ");
-			//nome = leia.next();
+			System.out.print("Digite seu nome: ");
+			String nome = leia.next();
 			//leia.nextLine();
-			System.out.println("E-MAIL: ");
-			//email = leia.next();
+			System.out.print("Digite seu e-mail: ");
+			email = leia.next();
 			System.out.print("Qual a sua cidade ? ");
 			cidade = leia.next();
 			leia.nextLine();
